@@ -193,7 +193,8 @@ we use free mail service by google
 2. search **App passwords** in TopBar
 3. Enter a app name (e.g., "teeHaven SMTP") and click **Create**.
 4. Note down the generated 16-digit **App password**.
-5. if **App passwords** is not visible so Enable a **2 steps verification** on your google account
+5. And add the `pass` and `user` in ``backend/config/index.js``
+6. if **App passwords** is not visible so Enable a **2 steps verification** on your google account
 
 ## Contribute
 
