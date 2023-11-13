@@ -5,23 +5,19 @@ export default {
   },
   Database: {
     url: "mongodb://127.0.0.1:27017",
-    db: "teeSpace",
-    adminCredential: {
-      uname: "admin",
-      pass: "admin",
-    },
+    db: "teeHaven"
   },
   Jwt: {
-    secretKey: "MYNAMEISKUNAL",
+    secretKey: "",
   },
   Razorpay: {
-    key_id: "rzp_test_2QWR7ZjFNrN42p",
-    key_secret: "BHXqayvQLPSmFAgXe6YmFaFC",
+    key_id: "",
+    key_secret: "",
   },
   GoogleSMTP: {
     host: "smtp.gmail.com",
     port: 465,
-    user: "thelosser321@gmail.com",
-    pass: "eavp rcki dqkm qtie",
+    user: "",
+    pass: "",
   },
 };
