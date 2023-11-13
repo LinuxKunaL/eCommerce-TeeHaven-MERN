@@ -11,6 +11,7 @@ Welcome to teeHaven, an eCommerce website developed using React.js, Node.js, Exp
 - [Introduction](#introduction)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [images](#images)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -47,6 +48,9 @@ And guess what? TeeHaven is open-source and totally free to use. I'm all about t
 - Express.js ![Express.js logo](https://skillicons.dev/icons?i=expressjs)
 - Redux ![Redux logo](https://skillicons.dev/icons?i=redux)
 - MongoDB ![MongoDB logo](https://skillicons.dev/icons?i=mongo)
+
+## Images
+
 
 ## Getting Started
 
