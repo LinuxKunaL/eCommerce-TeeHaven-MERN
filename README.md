@@ -51,6 +51,29 @@ And guess what? TeeHaven is open-source and totally free to use. I'm all about t
 
 ## Images
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxKunaL/eCommerce-TeeHaven-MERN/master/images/image_1.png" alt="TeeHaven Logo" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxKunaL/eCommerce-TeeHaven-MERN/master/images/image_2.png" alt="TeeHaven Logo" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxKunaL/eCommerce-TeeHaven-MERN/master/images/image_3.png" alt="TeeHaven Logo" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxKunaL/eCommerce-TeeHaven-MERN/master/images/image_4.png" alt="TeeHaven Logo" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxKunaL/eCommerce-TeeHaven-MERN/master/images/image_5.png" alt="TeeHaven Logo" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxKunaL/eCommerce-TeeHaven-MERN/master/images/image_6.png" alt="TeeHaven Logo" />
+</p>
 
 ## Getting Started
 
