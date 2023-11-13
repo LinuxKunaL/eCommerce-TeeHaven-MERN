@@ -1,10 +1,10 @@
 
-# TeeHaven eCommerce Website
-
-![TeeHaven Logo](https://raw.githubusercontent.com/LinuxKunaL/eCommerce-TeeHaven-MERN/eb0b4dde00a54a0b86fd6c049bcb2652a4960970/frontend/src/assets/svg/logo.svg)
+<h1 align="center">TeeHaven eCommerce Website</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxKunaL/eCommerce-TeeHaven-MERN/eb0b4dde00a54a0b86fd6c049bcb2652a4960970/frontend/src/assets/svg/logo.svg" alt="TeeHaven Logo" />
+</p>
 
 Welcome to teeHaven, an eCommerce website developed using React.js, Node.js, Express.js, Redux, and MongoDB.
-
 
 ## Table of Contents
 
