@@ -1,0 +1,1037 @@
+#Dashboard .Container main .products {
+  padding: 1pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 0.7pc;
+  background: #fff;
+  height: 100%;
+}
+
+#Dashboard .Container main .products .Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#Dashboard .Container main .products .Top .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Dashboard .Container main .products .Top .text h2 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .products .Lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+  height: 100%;
+  overflow: hidden;
+}
+
+#Dashboard .Container main .products .Lists .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#Dashboard .Container main .products .Lists .filter .searchInputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .products .Lists .filter .search {
+  background: none;
+
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.6pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .products .Lists .search:hover {
+  border: solid var(--Green-col) 1px;
+}
+
+#Dashboard .Container main .products .Lists .filter .search input {
+  background: none;
+  border: none;
+}
+
+#Dashboard .Container main .products .Lists .filter .search input:focus {
+  outline: none;
+}
+
+#Dashboard .Container main .products .Lists .filter .search .icon {
+  color: var(--Text-Dark-col);
+  cursor: pointer;
+}
+
+#Dashboard .Container main .products .Lists .filter .left select {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.6pc;
+  width: 7pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .products .Lists .filter .left select:hover {
+  border: solid var(--Green-col) 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .products .Lists .center {
+  padding: 1pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-y: auto;
+  flex-direction: column;
+  -webkit-box-shadow: inset 1px -1px 20px 0px #2520310f;
+  box-shadow: inset 1px -1px 20px 0px #2520310f;
+  border-radius: 1pc;
+}
+
+#Dashboard .Container main .products .Lists .IsEmpty {
+  font-weight: var(--font-weight-xl);
+  padding: 2pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Container main .products .Lists .IsEmpty .Icon {
+  color: var(--Green-col);
+  font-size: var(--font-size-l);
+}
+
+#Dashboard .Container main .products .Lists .IsEmpty b {
+  color: var(--Text-Dark-col);
+  font-weight: 500;
+}
+
+#Dashboard .Container main .products .Lists .center .table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Dashboard .Container main .products .Lists .center.table table thead tr {
+  background-color: var(--Light-Green-col);
+  color: var(--Green-col);
+  text-align: left;
+}
+
+#Dashboard .Container main .products .Lists .center .table table th,
+#Dashboard .Container main .products .Lists .center .table table td {
+  padding: 12px 15px;
+  text-align: start;
+}
+
+#Dashboard .Container main .products .Lists .center .table table td {
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Container main .products .Lists .center .table .ImgTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.6pc;
+}
+
+#Dashboard .Container main .products .Lists .center .table .ImgTitle img {
+  border: solid 1px var(--Green-col);
+  width: 5pc;
+  /* height: 6pc; */
+  padding: 0.1pc;
+  border-radius: 0.7pc;
+}
+
+#Dashboard .Container main .products .Lists .center .table .ImgTitle h3 {
+  color: var(--Text-Dark-col);
+  font-weight: 500;
+  font-size: 1rem;
+}
+#Dashboard .Container main .products .Lists .center .table .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5pc;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#Dashboard .Container main .products .Lists .center .table .btns button {
+  scale: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.4pc;
+}
+
+#Dashboard .Container main .products .Lists .center.body .table button {
+  width: 5pc;
+  height: 3pc;
+}
+
+#Dashboard .Container main .products .Lists .NextButtons {
+  padding: 1pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.5pc;
+}
+
+#Dashboard .Container main .products .Lists .NextButtons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .products .Lists .NextButtons ul li a {
+  height: 2.4pc;
+  width: 2.4pc;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 0.2pc;
+  background: var(--White-col);
+}
+
+#Dashboard .Container main .products .Lists .NextButtons .selected a {
+  background: var(--Green-col);
+  color: #fff;
+  border-radius: 0.2pc;
+}
+
+#Dashboard .Container main .products .Lists .NextButtons ul li a:active {
+  background: var(--Green-col);
+  color: #fff;
+  scale: 110%;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#Dashboard .Container main .products .Lists .NextButtons ul .previous {
+  border: solid 1px #9f9f9ffb;
+  color: var(--Green-col);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.2pc;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#Dashboard .Container main .products .Lists .NextButtons ul .next {
+  border: solid 1px #9f9f9ffb;
+  color: var(--Green-col);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.2pc;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#Dashboard .Container main .ProductAction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.5pc;
+  /* border: solid; */
+}
+
+#Dashboard .Container main .ProductAction .Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Dashboard .Container main .ProductAction .Top .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .ProductAction .Center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* justify-content: space-between; */
+  background: #fff;
+  padding: 1pc;
+  gap: 2pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .reviewBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2pc;
+  gap: 1pc;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 1pc;
+  background-color: #fff;
+}
+
+#Dashboard .Container main .ProductAction .Center .reviewBox img {
+  width: 4pc;
+  height: 4pc;
+  border-radius: 12pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .reviewBox .Msg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .reviewBox .Msg h3 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .ProductAction .Center .reviewBox .Msg p {
+  color: var(--Text-col);
+}
+
+#Dashboard .Container main .ProductAction .Center .reviewBox .Msg .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.2pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .reviewBox .Msg .stars .icon {
+  color: #f9cb5b;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 35pc;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .InputField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .InputField input {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  padding: 0.6pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  width: 100%;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .InputField
+  input:hover {
+  border: solid var(--Green-col) 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .InputField
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .InputField span {
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .InputField textarea {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: solid transparent 1px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  padding: 0.6pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  height: 8pc !important;
+  width: auto !important;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .InputField
+  textarea:hover {
+  border: solid var(--Green-col) 1px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .checkBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1pc;
+  position: relative;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .checkBox span {
+  color: var(--Text-Dark-col);
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .checkBox label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.4pc;
+  height: 3.5pc;
+  border-radius: 0.5pc;
+  padding: 0.4pc;
+  cursor: pointer;
+  width: 3.5pc;
+  background: var(--White-col);
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .checkBox .woman,
+.kids,
+.accessories,
+.beauty {
+  width: auto !important;
+  height: auto !important;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .checkBox
+  label
+  span {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .checkBox div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.6pc;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .checkBox
+  .Select {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  padding: 0.6pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  width: 14pc;
+  height: 2.9pc;
+  overflow-x: auto;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .checkBox:hover
+  .Options {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  z-index: 1;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .checkBox
+  .checked {
+  background: var(--Green-col);
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .checkBox
+  .checked
+  span {
+  color: #fff !important;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .checkBox
+  .Options {
+  padding-top: 1pc;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  display: none;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 14pc;
+  position: absolute;
+  top: 5.4pc;
+  background: #fff;
+  padding: 1pc;
+  border-radius: 0.5pc;
+  -webkit-box-shadow: 0px 30px 20px -10px #1311170a;
+  box-shadow: 0px 30px 20px -10px #1311170a;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .Activate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .Activate span {
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .Activate
+  .toggler-wrapper.style-4
+  input[type="checkbox"]:checked
+  + .toggler-slider
+  .toggler-knob {
+  left: calc(100% - 14px - 3px);
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .Activate
+  .toggler-wrapper.style-4
+  .toggler-knob {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  border: solid 1px #6f6d6d24;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .Activate
+  .toggler-wrapper {
+  display: block;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .Activate
+  .toggler-wrapper
+  input[type="checkbox"] {
+  display: none;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .Activate
+  .toggler-wrapper
+  input[type="checkbox"]:checked
+  + .toggler-slider {
+  background-color: var(--Green-col);
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .Activate
+  .toggler-wrapper
+  .toggler-slider {
+  background-color: var(--White-col);
+  position: absolute;
+  border-radius: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .Activate
+  .toggler-wrapper
+  .toggler-knob {
+  position: absolute;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .selectDD {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .selectDD span {
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Container main .ProductAction .Center .basic .box .selectDD select {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.6pc;
+  width: 7pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard
+  .Container
+  main
+  .ProductAction
+  .Center
+  .basic
+  .box
+  .selectDD
+  select:hover {
+  border: solid var(--Green-col) 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .ProductAction .Center .media {
+  /* width: 35pc; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .media .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+#Dashboard .Container main .ProductAction .Center .media h2 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .ProductAction .Center .media .MainImg {
+  border-radius: 0.6pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20pc;
+  gap: 0.8pc;
+  height: 24pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .media .MainImg img {
+  /* width: 100%; */
+  height: 20pc;
+  border-radius: 0.5pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .media .MainImg label {
+  background: var(--Green-col);
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.4pc;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: var(--font-weight-xl);
+  height: 3pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .media .subImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .media .subImg .Box {
+  border-radius: 0.6pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 13pc;
+  gap: 0.8pc;
+  height: 17pc;
+  overflow: hidden;
+  position: relative;
+}
+
+#Dashboard .Container main .ProductAction .Center .media .subImg .Box img {
+  width: 100%;
+  border-radius: 0.6pc;
+}
+
+#Dashboard .Container main .ProductAction .Center .media .subImg .Box label {
+  background: var(--Green-col);
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /* border-radius: 0.4pc; */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: var(--font-weight-xl);
+  /* height: 10pc; */
+  padding: 0.6pc;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

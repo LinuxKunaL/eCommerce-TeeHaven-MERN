@@ -1,0 +1,619 @@
+#Dashboard .Container main .orders {
+  padding: 1pc;
+  border-radius: 0.5pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .orders h3 {
+  font-size: var(--font-size-l);
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .orders .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Dashboard .Container main .orders .filter .search {
+  background: none;
+
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.6pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .orders .filter .search:hover {
+  border: solid var(--Green-col) 1px;
+}
+
+#Dashboard .Container main .orders .filter .search input {
+  background: none;
+  border: none;
+}
+
+#Dashboard .Container main .orders .filter .search input:focus {
+  outline: none;
+}
+
+#Dashboard .Container main .orders .filter .search .icon {
+  color: var(--Text-Dark-col);
+  cursor: pointer;
+}
+
+#Dashboard .Container main .orders .filter .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .orders .filter .left input {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  padding: 0.6pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+}
+
+#Dashboard .Container main .orders .filter .left input:hover {
+  border: solid var(--Green-col) 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .orders .filter .left select {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.6pc;
+  width: 7pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .orders .filter .left select:hover {
+  border: solid var(--Green-col) 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .orders .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .orders .table {
+  overflow-y: auto;
+}
+
+#Dashboard .Container main .orders .table .OrderIsEmpty {
+  font-weight: var(--font-weight-xl);
+  padding: 2pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5pc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Container main .orders .table .OrderIsEmpty .Icon {
+  color: var(--Green-col);
+  font-size: var(--font-size-l);
+}
+
+#Dashboard .Container main .orders .table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Dashboard .Container main .orders .table table thead tr {
+  background-color: var(--Light-Green-col);
+  color: var(--Green-col);
+  text-align: left;
+}
+
+#Dashboard .Container main .orders .table table th,
+#Dashboard .Container main .orders .table table td {
+  padding: 12px 15px;
+}
+
+#Dashboard .Container main .orders .table table td {
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Container main .orders .table table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+#Dashboard .Container main .orders .table table .statusPaid {
+  border-radius: 0.4pc;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 0.2pc;
+  background: var(--Light-Green-col);
+  color: var(--Green-col);
+  font-size: 0.8rem;
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .orders .table table .statusPending {
+  border-radius: 0.4pc;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 0.2pc;
+  background: #fcf1df;
+  font-size: 0.8rem;
+  font-weight: var(--font-weight-xl);
+  color: #f2bc5e;
+}
+
+#Dashboard .Container main .orders .table table .Link {
+  background: var(--Green-col);
+  padding: 0.3pc;
+  font-size: 0.8rem;
+  border-radius: 0.2pc;
+  color: var(--White-col);
+}
+
+#Dashboard .Container main .orders .NextButtons {
+  padding: 1pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5pc;
+}
+
+#Dashboard .Container main .orders .NextButtons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .orders .NextButtons ul li a {
+  height: 2.4pc;
+  width: 2.4pc;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.2pc;
+  background: var(--White-col);
+}
+
+#Dashboard .Container main .orders .NextButtons .selected a {
+  background: var(--Green-col);
+  color: #fff;
+  border-radius: 0.2pc;
+}
+
+#Dashboard .Container main .orders .NextButtons ul li a:active {
+  background: var(--Green-col);
+  color: #fff;
+  scale: 110%;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#Dashboard .Container main .orders .NextButtons ul .previous {
+  border: solid 1px #9f9f9ffb;
+  color: var(--Green-col);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.2pc;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Dashboard .Container main .orders .NextButtons ul .next {
+  border: solid 1px #9f9f9ffb;
+  color: var(--Green-col);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.2pc;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Dashboard .Container main .OrderDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5pc;
+}
+
+#Dashboard .Container main .OrderDetails .Top b {
+  color: var(--Green-col);
+}
+
+#Dashboard .Container main .OrderDetails .Top .confirm {
+  border-radius: 0.4pc;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background: var(--Light-Green-col);
+  color: var(--Green-col);
+  padding: 0.2pc;
+  font-size: 1rem;
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .OrderDetails .Top .pending {
+  border-radius: 0.4pc;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background: #ffe8d0;
+  color: #98530c;
+  padding: 0.2pc;
+  font-size: 1rem;
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .OrderDetails .orderBox {
+  padding: 1pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 0.7pc;
+  background: #fff;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.4pc;
+  color: var(--Text-col);
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .time .icon {
+  font-size: 1.4rem;
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .actions .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 0.6pc;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .actions .time span {
+  color: var(--Text-Dark-col);
+  font-size: var(--font-size-s);
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .actions .time input {
+  padding: 0.6pc;
+  border: none;
+  border-radius: 0.6pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  border: solid 1px transparent;
+  outline: none;
+}
+
+#Dashboard
+  .Container
+  main
+  .OrderDetails
+  .orderBox
+  .head
+  .actions
+  .time
+  input:hover {
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  border: solid 1px var(--Green-col);
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .actions select {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.6pc;
+  width: 7pc;
+  background: var(--White-col);
+  border-radius: 0.4pc;
+  height: 100%;
+  border: solid transparent 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .actions button {
+  height: 2.5pc;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .head .actions select:hover {
+  border: solid var(--Green-col) 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1pc;
+  gap: 2pc;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .head .boxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  height: 10pc !important;
+  border: solid 1px var(--Light-Green-col);
+  border-radius: 0.6pc;
+  padding: 0.5pc;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .head .boxs .side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.3pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .head .boxs .side h2 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+  font-size: 1.2rem;
+}
+
+#Dashboard
+  .Container
+  main
+  .OrderDetails
+  .orderBox
+  .body
+  .head
+  .boxs
+  .side
+  span {
+  color: var(--Text-col);
+}
+
+#Dashboard
+  .Container
+  main
+  .OrderDetails
+  .orderBox
+  .body
+  .head
+  .boxs
+  .side
+  .link {
+  color: var(--Green-col);
+  text-decoration: underline;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .head .boxs .icon {
+  color: var(--Green-col);
+  padding: 0.9pc;
+  background: var(--Light-Green-col);
+  margin-top: 0.5pc;
+  border-radius: 10pc;
+  height: 4pc;
+  width: 4pc;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .head .boxs b {
+  font-size: 1.3rem;
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .table {
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .table a {
+  background: var(--Green-col);
+  padding: 0.3pc;
+  font-size: 0.8rem;
+  border-radius: 0.2pc;
+  color: var(--White-col);
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .ImgTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .ImgTitle h3 {
+  color: var(--Green-col);
+  font-weight: var(--font-weight-xl);
+  font-size: 1rem;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .ImgTitle img {
+  width: 3.5pc;
+  border-radius: 0.6pc;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .table table thead tr {
+  background-color: var(--Light-Green-col);
+  color: var(--Green-col);
+  text-align: left;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .table table th,
+#Dashboard .Container main .OrderDetails .orderBox .body .table table td {
+  padding: 12px 15px;
+}
+
+#Dashboard .Container main .OrderDetails .orderBox .body .table table td {
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard
+  .Container
+  main
+  .OrderDetails
+  .orderBox
+  .body
+  .table
+  table
+  tbody
+  tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}

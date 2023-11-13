@@ -1,0 +1,1017 @@
+/* <============== profile Css ==================> */
+#Profile {
+  min-height: 100vh;
+}
+
+/* <============== profile section_1 Css ==================> */
+
+#Profile .section_1 {
+  background: var(--White-col);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2pc;
+  gap: 1pc;
+  padding-left: 17pc;
+  padding-right: 17pc;
+}
+
+#Profile .section_1 h1 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+  font-size: var(--font-size-xl);
+}
+
+#Profile .section_1 .Navigate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5pc;
+}
+
+#Profile .section_1 .Navigate span {
+  color: var(--Text-col);
+}
+
+#Profile .section_1 .Navigate b {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+/* <============== profile section_1 Css ==================> */
+
+/* <============== profile section_2 Css ==================> */
+#Profile .section_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1pc;
+  padding: 2pc;
+  padding-left: 17pc;
+  padding-right: 17pc;
+}
+
+#Profile .section_2 h1 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Profile .section_2 h1 b {
+  font-weight: var(--font-weight-xl);
+  color: var(--Green-col);
+}
+
+#Profile .section_2 .Nav {
+  background: var(--White-col);
+  padding: 1pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 0.5pc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Profile .section_2 .Nav .menu {
+  display: none;
+}
+
+#Profile .section_2 .Nav .side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2pc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Profile .section_2 .Nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  gap: 0.4pc;
+  padding: 0.4pc;
+  color: var(--Text-Dark-col);
+  border-radius: 0.5pc;
+  color: var(--Text-Dark-col);
+}
+
+#Profile .section_2 .Nav a:hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  background: var(--Light-Green-col);
+}
+
+#Profile .section_2 .Nav a:hover .icon {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  color: var(--Green-col);
+}
+
+#Profile .section_2 .Nav .active {
+  background: var(--Light-Green-col);
+}
+
+#Profile .section_2 .Nav .active .icon {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  color: var(--Green-col);
+}
+
+
+#Profile .section_2 .Main {
+  height: 100%;
+  /* height: 49vh; */
+}
+
+#Profile .section_2 .Main .ProfileEdit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3pc;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+
+
+#Profile .section_2 .Main .ProfileEdit .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2pc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Profile .section_2 .Main .ProfileEdit .top .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+#Profile .section_2 .Main .ProfileEdit .top .buttons button {
+  height: 2.5pc;
+  width: 5pc;
+}
+
+#Profile .section_2 .Main .ProfileEdit .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2pc;
+}
+
+#Profile .section_2 .Main .ProfileEdit .center .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.4pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Profile .section_2 .Main .ProfileEdit h3 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Profile .section_2 .Main .ProfileEdit form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.4pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Profile .section_2 .Main .ProfileEdit .textField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Profile .section_2 .Main .ProfileEdit .textField span {
+  color: var(--Green-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Profile .section_2 .Main .ProfileEdit .textField input {
+  color: var(--Text-col);
+  font-weight: var(--font-weight-xl);
+  border-radius: 0.5pc;
+  background: var(--White-col);
+  padding: 0.5pc;
+  outline: none;
+  border: none;
+}
+
+#Profile .section_2 .Main .ProfileEdit .textField input::-webkit-input-placeholder {
+  opacity: 40%;
+}
+
+#Profile .section_2 .Main .ProfileEdit .textField input::-moz-placeholder {
+  opacity: 40%;
+}
+
+#Profile .section_2 .Main .ProfileEdit .textField input:-ms-input-placeholder {
+  opacity: 40%;
+}
+
+#Profile .section_2 .Main .ProfileEdit .textField input::-ms-input-placeholder {
+  opacity: 40%;
+}
+
+#Profile .section_2 .Main .ProfileEdit .textField input::placeholder {
+  opacity: 40%;
+}
+
+#Profile .section_2 .Main .Orders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#Profile .section_2 .Main .Orders .order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  gap: 1pc;
+  padding: 0.9pc;
+  background: var(--White-col);
+  border: solid transparent 1px;
+  border-radius: 0.5pc;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+#Profile .section_2 .Main .OrderNotYet {
+  margin-top: 3pc;
+  color: var(--Text-Dark-col);
+  gap: 1pc;
+  font-weight: var(--font-weight-xl);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: capitalize;
+}
+
+#Profile .section_2 .Main .OrderNotYet h2 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Profile .section_2 .Main .Orders .order:hover {
+  border: solid var(--Green-col) 1px;
+}
+
+#Profile .section_2 .Main .Orders .order img {
+  height: 8pc;
+  border-radius: 1pc;
+  border: solid #3b3e492f 1px;
+}
+
+#Profile .section_2 .Main .Orders .order .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Profile .section_2 .Main .Orders .order .info span {
+  color: var(--Text-Dark-col);
+}
+
+#Profile .section_2 .Main .Orders .order .info legend {
+  color: var(--Text-col);
+}
+
+#Profile .section_2 .Main .Orders .order .info b {
+  color: var(--Text-Dark-col);
+  font-weight: 600;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5pc;
+  width: 100%;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.58pc;
+  width: 100%;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .Top p {
+  color: var(--Text-col);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5pc;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .Top p a {
+  color: var(--Green-col);
+  text-decoration: underline;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .Top b {
+  color: var(--Green-col);
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .Top .confirm {
+  border-radius: 0.4pc;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background: var(--Light-Green-col);
+  color: var(--Green-col);
+  padding: 0.2pc;
+  font-size: 1rem;
+  font-weight: var(--font-weight-xl);
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .Top .pending {
+  border-radius: 0.4pc;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background: #ffe8d0;
+  color: #98530c;
+  padding: 0.2pc;
+  font-size: 1rem;
+  font-weight: var(--font-weight-xl);
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 0.7pc;
+  background: #fff;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3pc;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .head .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.4pc;
+  color: var(--Text-col);
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .head .time span {
+  color: var(--Text-Dark-col);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .head .time b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.6pc;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .head .time b .icon {
+  font-size: 1.4rem;
+  color: var(--Text-Dark-col);
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1pc;
+  gap: 2pc;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table {
+  overflow-y: auto;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table table thead tr {
+  background-color: var(--Light-Green-col);
+  color: var(--Green-col);
+  text-align: left;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table table th,
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table table td {
+  padding: 12px 15px;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table table td {
+  color: var(--Text-Dark-col);
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table .ImgTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.6pc;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table .ImgTitle img {
+  border: solid 1px var(--Green-col);
+  width: 5pc;
+  /* height: 6pc; */
+  padding: 0.1pc;
+  border-radius: 0.7pc;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table .ImgTitle h3 {
+  color: var(--Text-Dark-col);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table button {
+  width: 5pc;
+  height: 3pc;
+}
+
+#Profile .section_2 .Main .BillingAddress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2pc;
+}
+
+#Profile .section_2 .Main .BillingAddress h3 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Profile .section_2 .Main .BillingAddress .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Profile .section_2 .Main .BillingAddress .center .inputField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Profile .section_2 .Main .BillingAddress .center .inputField .label span {
+  color: var(--Text-Dark-col);
+  text-transform: capitalize;
+}
+
+#Profile .section_2 .Main .BillingAddress .center .inputField input {
+  border: none;
+  background: #f8f8f8;
+  width: 100%;
+  padding: 0.7pc;
+  width: 30pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 0.5pc;
+  border: solid 2px transparent;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#Profile .section_2 .Main .BillingAddress .center .inputField input:focus {
+  outline: none;
+  border: solid 2px var(--Green-col);
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#Profile .section_2 .Main .PreviousOrders .order {
+  background: var(--Light-Green-col);
+}
+
+
+@media only screen and (max-width:1500px) {
+  #Profile .section_1, .section_2, .section_3, .section_4 {
+    padding-left: 13pc !important;
+    padding-right: 13pc !important;
+  }
+}
+
+@media only screen and (max-width:1300px) {
+  #Profile .section_1, .section_2, .section_3, .section_4 {
+    padding-left: 10pc !important;
+    padding-right: 10pc !important;
+  }
+}
+
+@media only screen and (max-width:1500px) {
+  #Profile .section_1, .section_2, .section_3, .section_4 {
+    padding: 2pc;
+    padding-left: 8pc !important;
+    padding-right: 8pc !important;
+  }
+
+}
+
+@media only screen and (max-width:1000px) {
+  #Profile .section_1, .section_2, .section_3, .section_4 {
+    padding: 2pc;
+    padding-left: 4pc !important;
+    padding-right: 4pc !important;
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+  #Profile .section_2 .Nav .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.5rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+  }
+
+  #Profile .section_2 .Nav .menu:active {
+    background: var(--Green-col);
+    color: #fff;
+    border-radius: 0.4pc;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  #Profile .section_2 .Nav {
+    position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  /* #Profile .section_2 .Nav .side a:nth-child(1) {} */
+
+  #Profile .section_2 .Nav .side {
+    padding: 1pc;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    right: 0;
+    gap: 0.7pc;
+    top: 5pc;
+    z-index: 111;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    border-radius: 0.6pc;
+    position: absolute;
+    background: var(--White-col);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateX(30pc);
+        -ms-transform: translateX(30pc);
+            transform: translateX(30pc);
+    -webkit-transition: all cubic-bezier(0, 1.01, 0, 1.01) 0.3s;
+    -o-transition: all cubic-bezier(0, 1.01, 0, 1.01) 0.3s;
+    transition: all cubic-bezier(0, 1.01, 0, 1.01) 0.3s;
+  }
+
+  #Profile .section_2 .Nav .activeMenu {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: all cubic-bezier(0, 1.01, 0, 1.01) 0.3s;
+    -o-transition: all cubic-bezier(0, 1.01, 0, 1.01) 0.3s;
+    transition: all cubic-bezier(0, 1.01, 0, 1.01) 0.3s;
+  }
+
+  #Profile .section_2 .Nav a {
+    gap: 0.4pc;
+    width: auto;
+  }
+
+  #Profile .section_2 .Main .ProfileEdit {
+    width: auto;
+  }
+
+  #Profile .section_2 .Main .ProfileEdit .center .password {
+    width: 100%;
+  }
+
+  #Profile .section_2 .Main .ProfileEdit form {
+    width: 100%;
+
+  }
+
+  #Profile .section_2 .Main .ProfileEdit .textField input {
+    width: 100%;
+  }
+
+  #Profile .section_2 .Main .BillingAddress .center .inputField input {
+    width: auto;
+
+  }
+}
+
+@media only screen and (max-width:730px) {
+  #Profile .section_1, .section_2, .section_3, .section_4 {
+    padding-left: 5pc !important;
+    padding-right: 5pc !important;
+  }
+
+}
+
+@media only screen and (max-width:600px) {
+  #Profile .section_1, .section_2, .section_3, .section_4 {
+    padding-left: 3pc !important;
+    padding-right: 3pc !important;
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+
+  #Profile .section_1, .section_2, .section_3, .section_4 {
+    padding-left: 2pc !important;
+    padding-right: 2pc !important;
+  }
+
+  #Profile .section_1 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1pc !important;
+  }
+
+  #Profile .section_1 h1 {
+    font-size: 1.7rem;
+  }
+
+  #Profile .section_1 .Navigate {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  #Profile .section_1 .Navigate span {
+    font-size: 0.8rem;
+  }
+
+  #Profile .section_1 .Navigate b {
+    font-size: 0.8rem;
+  }
+
+  #Profile .section_2 .Main .ProfileEdit {
+    gap: 1pc;
+  }
+
+  #Profile .section_2 .Main .ProfileEdit .top {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  #Profile .section_2 h1 {
+    font-size: 1.3rem;
+  }
+
+  #Profile .section_2 .Nav a {
+    gap: 0.4pc;
+    width: auto;
+  }
+
+  #Profile .section_2 .Main .ProfileEdit h3 {
+    font-size: 1rem;
+  }
+
+  #Profile .section_2 .Main .ProfileEdit .top .buttons button {
+    height: 2.2pc !important;
+    width: 4.5pc;
+  }
+
+  #Profile .section_2 .Main .Orders .order {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.6pc;
+  }
+
+  #Profile .section_2 .Main .Orders .order img {
+    height: 6pc;
+    border-radius: 0.5pc;
+  }
+
+  #Profile .section_2 .Main .Orders a {
+    width: 100%;
+  }
+
+  #Profile .section_2 .Main .Orders .order .info span {
+    font-size: 0.8rem;
+  }
+
+  #Profile .section_2 .Main .Orders .order .info b {
+    font-size: 0.8rem;
+  }
+
+  #Profile .section_2 .Main .Orders .order .info legend {
+    font-size: 0.8rem;
+
+  }
+
+  #Profile .section_2 .Main .OrderNotYet h2 {
+    font-size: 1rem;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails {
+    gap: 0.8pc;
+  }
+
+  #Profile .section_2 .Main .OrderNotYet {
+    margin-top: 3pc;
+    gap: 0.6pc;
+  }
+
+  #Profile .section_2 .Main .OrderNotYet button {
+    height: 2.2pc !important;
+    font-size: 0.7rem;
+    width: 4.5pc;
+  }
+
+  #Profile .section_2 .Main .OrderNotYet a {
+    width: auto;
+  }
+
+  #Profile .section_2 .Main .BillingAddress {
+    gap: 1pc;
+  }
+
+  #Profile .section_2 .Main .BillingAddress h3 {
+    font-size: 1rem;
+  }
+
+  #Profile .section_2 .Main .BillingAddress span {
+    font-size: 0.8rem;
+  }
+
+  #Profile .section_2 .Main .BillingAddress .center .inputField input {
+    width: auto;
+    font-size: 0.7rem;
+    padding: 0.5pc;
+    font-weight: 500;
+  }
+
+  #Profile .section_2 .Main .BillingAddress button {
+    height: 2.2pc !important;
+    font-size: 0.7rem;
+    width: 4.5pc;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails h1 {
+    font-size: 1rem;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .Top p {
+    font-size: 0.8rem;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .orderBox .head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0.5pc;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .orderBox .head .time span {
+    font-size: 0.8rem;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .orderBox .head .time b {
+    font-size: 0.8rem;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .Top .confirm {
+    border-radius: 0.4pc;
+    font-size: 0.7rem;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .Top .pending {
+    border-radius: 0.4pc;
+    font-size: 0.7rem;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table table th, #Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table table td {
+    padding: 6px 9px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table .ImgTitle h3 {
+    font-size: 0.8rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table button {
+    width: 3pc;
+    height: 2pc;
+    font-size: 0.7rem;
+  }
+
+  #Profile .section_2 .Main .Orders .OrderDetails .orderBox .body .table .ImgTitle img {
+    width: 3.5pc;
+  }
+}
+
+@media only screen and (max-width:450px) {
+
+  #Profile .section_2 .Nav a {
+    font-size: 0.9rem
+  }
+
+  #Profile .section_2 .Nav .side {
+    top: 3.5pc;
+  }
+
+  #Profile .section_2 .Nav .menu {
+    font-size: 1.2rem
+  }
+
+  #Profile .section_1, .section_2, .section_3, .section_4 {
+    padding-left: 1pc !important;
+    padding-right: 1pc !important;
+  }
+
+  #Profile .section_2 .Main .ProfileEdit .textField span {
+    font-size: 0.8rem;
+
+  }
+
+  #Profile .section_2 .Main .ProfileEdit .textField input {
+    font-size: 0.7rem;
+  }
+
+  #Profile .section_2 .Nav {
+    padding: 0.4pc;
+  }
+
+  #Profile .section_2 input[type="submit"] {
+    height: 2.2pc !important;
+    width: 4.5pc;
+    font-size: 0.7rem;
+
+  }
+}
+
+@media only screen and (max-width:385px) {}
+
+/* <============== profile section_2 Css ==================> */
+
+/* <============== profile Css ==================> */

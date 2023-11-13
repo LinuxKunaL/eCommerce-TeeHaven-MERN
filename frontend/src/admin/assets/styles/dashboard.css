@@ -1,0 +1,1217 @@
+#Dashboard {
+  min-width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Dashboard .Menu {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: solid #61ce704a 1px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+  padding: 0.7pc;
+}
+
+#Dashboard .Menu .logo {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#Dashboard .Menu .CloseDashboardIcon {
+  display: none;
+}
+
+#Dashboard .Menu .logo img {
+  width: 3pc;
+}
+
+#Dashboard .Menu .MenuBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+}
+
+#Dashboard .Menu .MenuBody .li {
+  padding: 0.5pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1pc;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 0.5pc;
+  cursor: pointer;
+}
+
+#Dashboard .Menu .MenuBody .li:hover {
+  background: var(--Light-Green-col);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#Dashboard .Menu .MenuBody .li .icon {
+  color: var(--Text-col);
+}
+
+#Dashboard .Menu .MenuBody .li span {
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard .Menu .MenuBody .li:hover .icon {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  color: var(--Green-col);
+}
+
+#Dashboard .Menu .MenuBody .active {
+  background: var(--Light-Green-col);
+}
+
+#Dashboard .Menu .MenuBody .active .icon {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  color: var(--Green-col);
+}
+
+#Dashboard .Container {
+  width: 100%;
+  height: 100%;
+  background: #f8f9fa;
+}
+
+#Dashboard .Container .PasswordChangeForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.5pc;
+  border-left: solid #61ce704a 1px;
+  border-bottom: solid #61ce704a 1px;
+  padding: 1pc;
+  background: #ffffffe8;
+  position: fixed;
+  right: 0;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-bottom-left-radius: 0.5pc;
+  z-index: 1111;
+}
+
+#Dashboard .Container .PasswordChangeForm .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1pc;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Dashboard .Container .PasswordChangeForm .buttons button,
+input[type="reset"] {
+  width: 5pc;
+  height: 3pc;
+}
+
+#Dashboard .Container .PasswordChangeForm h2 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+  font-size: 1.2rem;
+}
+
+#Dashboard .Container .PasswordChangeForm .inputField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Dashboard .Container .PasswordChangeForm .inputField .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+#Dashboard .Container .PasswordChangeForm .inputField .label span {
+  color: var(--Text-Dark-col);
+  text-transform: capitalize;
+}
+
+#Dashboard .Container .PasswordChangeForm .inputField .label .link {
+  color: var(--Green-col);
+}
+
+#Dashboard .Container .PasswordChangeForm .inputField input {
+  border: none;
+  background: #f8f8f8;
+}
+
+#Dashboard .Container .PasswordChangeForm .inputField input:focus {
+  outline: none;
+}
+
+#Dashboard .Container .PasswordChangeForm .inputField .Input {
+  background: #f8f8f8;
+  width: 100%;
+  padding: 0.7pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-radius: 0.5pc;
+}
+
+#Dashboard .Container .PasswordChangeForm .inputField .Input .icon {
+  color: var(--Text-col);
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+#Dashboard .Container .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 1pc;
+  height: 9%;
+  background: #fff;
+  border-bottom: solid #61ce704a 1px;
+}
+
+#Dashboard .Container .top .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  padding-right: 2pc;
+}
+
+#Dashboard .Container .top .icons .icon {
+  color: var(--Text-Dark-col);
+  height: 2.5pc;
+  width: 2.5pc;
+  border-radius: 0.4pc;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  padding: 0.6pc;
+  cursor: pointer;
+}
+
+#Dashboard .Container .top .icons .icon:hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  background: var(--Green-col);
+  color: #fff;
+}
+
+#Dashboard .Container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 2pc;
+  gap: 2pc;
+  overflow-y: auto;
+  height: 90%;
+}
+
+#Dashboard .Container main .Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.58pc;
+  width: 100%;
+}
+
+#Dashboard .Container .top .dashboardIcon {
+  display: none;
+}
+
+#Dashboard .Container main .Top h1 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .Top p {
+  color: var(--Text-col);
+}
+
+#Dashboard .Container main .Top .Boxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  gap: 2pc;
+}
+
+#Dashboard .Container main .Top .Boxs .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  gap: 1pc;
+  width: 100%;
+  padding: 0.8pc;
+  cursor: pointer;
+  border-radius: 0.5pc;
+}
+
+#Dashboard .Container main .Top .Boxs .box .icon {
+  width: 3pc;
+  height: 3pc;
+  padding: 0.6pc;
+  border-radius: 10pc;
+  background: var(--Light-Green-col);
+  color: var(--Green-col);
+}
+
+#Dashboard .Container main .Top .Boxs .box h3 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .Top .Boxs .box span {
+  color: var(--Text-col);
+}
+
+@media only screen and (max-width: 1380px) {
+  #Dashboard .Container main .ProductAction .Center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .head .actions {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 1pc;
+    width: 100%;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .head {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 1pc;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .head {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #Dashboard .Container main .Top .Boxs {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  #Dashboard .Container main .Top .Boxs .box {
+    width: 14pc;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #Dashboard .Menu {
+    position: fixed;
+    background: #ffffffd6;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    left: -10pc;
+    z-index: 11111;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  #Dashboard .activeMenu {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    left: 0;
+  }
+
+  #Dashboard .Container .top {
+    position: relative;
+  }
+
+  #Dashboard .Menu .CloseDashboardIcon {
+    display: block;
+
+    height: 2pc;
+    width: auto;
+    border-radius: 0.4pc;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    padding: 0.3pc;
+    cursor: pointer;
+
+    background: var(--Green-col);
+    color: #fff;
+  }
+
+  #Dashboard .Container .top .dashboardIcon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 4pc;
+    font-size: 1rem;
+    padding: 1.3pc;
+    color: #fff;
+    left: 0;
+    background: var(--Green-col);
+  }
+
+  #Dashboard .Container main .ProductAction .Center .media .center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .table {
+    overflow-y: auto;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .table table {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  #Dashboard .Container main .products .Lists .filter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 1pc;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  #Dashboard .Container main .products .Lists .filter .search input {
+    width: 100%;
+  }
+
+  #Dashboard .Container main .products .Lists .filter .search {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  #Dashboard .Container main .products .Lists .filter .searchInputs {
+    width: 100%;
+  }
+
+  #Dashboard .Container main .products .Lists .center .table table {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .media .subImg {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #Dashboard .Container main .UserDetails .center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  #Dashboard .Container main .UserDetails .center .mainInfo {
+    width: 100%;
+  }
+
+  #Dashboard .Container main .UserDetails .center .ordersInfo {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #Dashboard .Container main .orders .filter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 1pc;
+  }
+
+  #Dashboard .Container main .orders .filter .search {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  #Dashboard .Container main .orders .filter .left {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic {
+    width: auto;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic .box:nth-child(5) {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .head .boxs {
+    height: 10pc;
+    width: 100%;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body {
+    padding: 0.6pc !important;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  #Dashboard .Container main .Top .Boxs {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  #Dashboard .Container main .Top .Boxs .box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #Dashboard .Container main .Top h1 {
+    font-size: 1.3rem;
+  }
+
+  #Dashboard .Container main .Top p {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main {
+    padding: 1pc;
+  }
+
+  #Dashboard .Container main .Top .Boxs {
+    gap: 0.8pc;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  #Dashboard .Container main .Top .Boxs .box {
+    width: 9pc;
+  }
+
+  #Dashboard .Container main .Top .Boxs .box:nth-child(5) {
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    width: 100%;
+  }
+
+  #Dashboard .Container main .Top .Boxs .box h3 {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .Top .Boxs .box span {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .Top .Boxs .box .icon {
+    width: 2.4pc;
+    height: 2.4pc;
+    padding: 0.6pc;
+  }
+
+  #Dashboard .Container main .orders h3 {
+    font-size: 0.9rem;
+  }
+
+  #Dashboard .Container main .orders .filter .search input {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .orders .filter .left input {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .orders .filter .left select {
+    width: 7pc;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .orders .table table th,
+  #Dashboard .Container main .orders .table table td {
+    padding: 6px 9px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  #Dashboard .Container main .orders .table table {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  #Dashboard .Container main .orders .table table .statusPaid {
+    border-radius: 0.4pc;
+    padding: 0.2pc;
+    font-size: 0.6rem;
+  }
+
+  #Dashboard .Container main .orders .table table .statusPending {
+    border-radius: 0.4pc;
+    padding: 0.2pc;
+    font-size: 0.6rem;
+  }
+
+  #Dashboard .Container main .orders .table table .Link {
+    padding: 0.2pc;
+    font-size: 0.6rem;
+  }
+
+  #Dashboard .Container main .orders .NextButtons {
+    padding: 0.7pc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1pc;
+  }
+
+  #Dashboard .Container main .orders .NextButtons button {
+    width: 2pc !important;
+    height: 2pc !important;
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .orders .NextButtons .boxNum {
+    height: 2pc;
+    font-size: 0.8rem;
+    width: 2pc;
+  }
+
+  #Dashboard .Container .top .icons {
+    gap: 0.5pc;
+    padding-right: 0;
+  }
+
+  #Dashboard .Container .top {
+    padding: 0.3pc;
+    height: 4pc;
+  }
+
+  #Dashboard .Container .top .dashboardIcon {
+    padding: 1.5pc;
+  }
+
+  #Dashboard .Container .top .icons .icon {
+    height: 2.2pc;
+    width: 2.2pc;
+  }
+
+  #Dashboard .Menu .logo img {
+    width: 2.4pc;
+  }
+
+  #Dashboard .Menu .MenuBody {
+    gap: 2pc;
+  }
+
+  #Dashboard .Menu .MenuBody .li {
+    padding: 0.6pc;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 0.3pc;
+  }
+
+  #Dashboard .Menu .MenuBody .li .icon {
+    font-size: 0.9rem;
+  }
+
+  #Dashboard .Menu .CloseDashboardIcon {
+    border-radius: 0.3pc;
+    padding: 0.4pc;
+  }
+
+  #Dashboard .Container main .products .Top .text h2 {
+    font-size: 1rem;
+  }
+
+  #Dashboard .Container main .Top p {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .Top button {
+    width: 5pc;
+    font-size: 0.7rem;
+    height: 2pc;
+  }
+
+  #Dashboard .Container main .products .Lists .filter .search input {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .products .Lists .filter .left select {
+    font-size: 0.7rem;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  #Dashboard .Container main .products .Lists .filter .left {
+    width: 100%;
+  }
+
+  #Dashboard .Container main .products .Lists .IsEmpty b {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .products .Lists .center {
+    padding: 0.7pc;
+  }
+
+  #Dashboard .Container main .products .Lists .center .table .ImgTitle h3 {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .products .Lists .center .table table td {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .products .Lists .center .table .btns button {
+    scale: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 0.4pc;
+  }
+
+  #Dashboard .Container main .products .Lists .NextButtons {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #Dashboard .Container main .products .Lists .NextButtons button {
+    width: 2.1pc !important;
+    height: 2.1pc !important;
+    padding: 0.6pc;
+  }
+
+  #Dashboard .Container main .products .Lists .NextButtons .boxNum {
+    height: 2.2pc;
+    width: 2.2pc;
+    font-size: 0.8rem;
+  }
+
+  .DialogBoxForDeleteProduct {
+    gap: 1.4pc;
+  }
+
+  .DialogBoxForDeleteProduct span {
+    font-size: 0.8rem;
+  }
+
+  .DialogBoxForDeleteProduct button {
+    width: 3.4pc !important;
+    height: 2pc !important;
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .ProductAction .Top .btn input {
+    width: 3.9pc !important;
+    height: 2.4pc !important;
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .media .MainImg {
+    width: 100%;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .media .MainImg img {
+    width: 100% !important;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .media h2 {
+    font-size: 1.1rem;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .media label {
+    height: 2.6pc;
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .media .subImg .Box {
+    width: 10pc;
+    height: 13pc;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic h2 {
+    font-size: 1.1rem;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic .InputField span {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic .InputField input {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic .box .Activate {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+
+  #Dashboard
+    .Container
+    main
+    .ProductAction
+    .Center
+    .basic
+    .InputField
+    textarea {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Dashboard
+    .Container
+    main
+    .ProductAction
+    .Center
+    .basic
+    .box
+    .checkBox
+    .Select {
+    width: 100%;
+    font-size: 0.8rem;
+    height: 2.9pc;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic .box select {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic .box span {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Dashboard
+    .Container
+    main
+    .ProductAction
+    .Center
+    .basic
+    .box
+    .checkBox
+    .Options {
+    width: 11pc;
+    font-size: 0.8rem;
+    top: 5.4pc;
+  }
+
+  #Dashboard
+    .Container
+    main
+    .ProductAction
+    .Center
+    .basic
+    .box
+    .checkBox
+    label {
+    height: 3pc;
+    width: 3pc;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .reviewBox {
+    padding: 1pc;
+    border: solid var(--Light-Green-col) 1px;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .reviewBox .Msg h3 {
+    font-size: 0.9rem;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .reviewBox .Msg p {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .reviewBox .Msg .stars {
+    font-size: 0.7rem;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .reviewBox img {
+    width: 3pc;
+    height: 3pc;
+  }
+
+  #Dashboard .Container main .OrderDetails .Top .confirm {
+    font-size: 0.7rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .Top .confirm {
+    font-size: 0.7rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .Top .pending {
+    font-size: 0.7rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .head .time .icon {
+    font-size: 1.1rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .head .time {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .head .actions .time {
+    width: 100%;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .head .actions .time span {
+    font-size: 0.8rem;
+    width: 50%;
+    font-weight: 500;
+  }
+
+  #Dashboard
+    .Container
+    main
+    .OrderDetails
+    .orderBox
+    .head
+    .actions
+    .time
+    input {
+    font-size: 0.7rem;
+    width: 50%;
+    font-weight: 500;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .head .actions select {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.5pc;
+    width: 6.5pc;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .head .actions button {
+    height: 2.2pc;
+    font-size: 0.8rem;
+  }
+
+  #Dashboard
+    .Container
+    main
+    .OrderDetails
+    .orderBox
+    .body
+    .head
+    .boxs
+    .side
+    h2 {
+    font-size: 0.9rem;
+  }
+
+  #Dashboard
+    .Container
+    main
+    .OrderDetails
+    .orderBox
+    .body
+    .head
+    .boxs
+    .side
+    span {
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .head .boxs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.6pc;
+    height: auto !important;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .head .boxs b {
+    font-size: 1.1rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .ImgTitle h3 {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .table table th,
+  #Dashboard .Container main .OrderDetails .orderBox .body .table table td {
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body {
+    gap: 0.8pc !important;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body {
+    padding: 0pc !important;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .head .boxs .icon {
+    padding: 0.6pc;
+    height: 3pc;
+    width: 3pc;
+  }
+
+  #Dashboard .Container main .OrderDetails .orderBox .body .table a {
+    padding: 0.2pc;
+    font-size: 0.7rem;
+  }
+
+  #Dashboard .Container main .UserDetails h2 {
+    font-size: 0.9rem;
+  }
+
+  #Dashboard .Container main .UserDetails {
+    padding: 0.5pc;
+    gap: 1pc;
+  }
+
+  #Dashboard .Container main .UserDetails .center .mainInfo span {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  #Dashboard .Container main .UserDetails .center .mainInfo b {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  #Dashboard .Container main .UserDetails .center .mainInfo img {
+    width: 5pc;
+  }
+
+  #Dashboard .Container main .UserDetails .center {
+    padding: 0.5pc !important;
+  }
+
+  #Dashboard .Container main .UserDetails .center .ordersInfo li .info span {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .UserDetails .center .ordersInfo li .info b {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container main .UserDetails .center .ordersInfo li .info .done {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard
+    .Container
+    main
+    .UserDetails
+    .center
+    .ordersInfo
+    li
+    .info
+    .pending {
+    font-size: 0.8rem;
+  }
+
+  #Dashboard .Container .PasswordChangeForm h2 {
+    font-size: 1rem;
+  }
+  #Dashboard .Container .PasswordChangeForm .inputField .label span {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  #Dashboard .Container .PasswordChangeForm .inputField input {
+    font-size: 0.7rem;
+  }
+  #Dashboard .Container .PasswordChangeForm .inputField .Input .icon {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  #Dashboard .Container .PasswordChangeForm .buttons button,
+  input[type="reset"] {
+    width: 4pc;
+    height: 2pc;
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+
+  #AdminLogin form h2 {
+    font-size: 1.2rem;
+  }
+  #AdminLogin form .inputField .label span {
+    font-size: 0.8rem;
+  }
+
+  #AdminLogin form .inputField input {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  #AdminLogin form .inputField .Input .icon {
+    font-size: 1.1rem;
+  }
+
+  #AdminLogin form {
+    width: 100%;
+  }
+
+  #Dashboard .Container main .NextButtons ul li a {
+    height: 2pc !important;
+    font-size: 0.8rem;
+    width: 2pc !important;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  #Dashboard .Container main .OrderDetails .orderBox .body .head .boxs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  #Dashboard .Container main .products .Lists .NextButtons {
+    padding: 0.5pc;
+    gap: 0.6pc;
+  }
+
+  #Dashboard .Container main .ProductAction .Center .basic .box:nth-child(4) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

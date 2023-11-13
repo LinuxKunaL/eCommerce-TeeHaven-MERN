@@ -1,0 +1,113 @@
+/* <============== adminLogin Css ==================> */
+#AdminLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 1.4pc;
+}
+
+#AdminLogin form {
+  border: solid 1px #61ce705f;
+  border-radius: 0.5pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.3pc;
+  padding: 1pc;
+}
+
+#AdminLogin form h2 {
+  text-align: center;
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#AdminLogin form .inputField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#AdminLogin form .inputField .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+#AdminLogin form .inputField .label span {
+  color: var(--Text-Dark-col);
+  text-transform: capitalize;
+}
+
+#AdminLogin form .inputField .label .link {
+  color: var(--Green-col);
+}
+
+#AdminLogin form .inputField input {
+  border: none;
+  background: #f8f8f8;
+}
+
+#AdminLogin form .inputField input:focus {
+  outline: none;
+}
+
+#AdminLogin form .inputField .Input {
+  background: #f8f8f8;
+  width: 100%;
+  padding: 0.7pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-radius: 0.5pc;
+  border: solid 1px transparent;
+}
+
+#AdminLogin form .inputField .Input:hover {
+  border: solid 1px var(--Green-col);
+}
+
+#AdminLogin form .inputField .Input .icon {
+  color: var(--Text-col);
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+#AdminLogin form button {
+  width: 100%;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+/* <============== adminLogin Css ==================> */

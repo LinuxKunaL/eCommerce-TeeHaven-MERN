@@ -1,0 +1,377 @@
+/* <============== Login Css ==================> */
+
+/* <============== Login section_1 Css ==================> */
+
+#Login .section_1 {
+  background: var(--White-col);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2pc;
+  gap: 1pc;
+  padding-left: 17pc;
+  padding-right: 17pc;
+}
+
+#Login .section_1 h1 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+  font-size: var(--font-size-xl);
+}
+
+#Login .section_1 .Navigate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5pc;
+}
+
+#Login .section_1 .Navigate span {
+  color: var(--Text-col);
+}
+
+#Login .section_1 .Navigate b {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+/* <============== Login section_1 Css ==================> */
+
+/* <============== Login section_2 Css ==================> */
+
+#Login .section_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2pc;
+  gap: 1pc;
+  padding-left: 17pc;
+  padding-right: 17pc;
+}
+
+#Login .section_2 h2 {
+  color: var(--Green-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Login .section_2 h1 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+  font-size: var(--font-size-l);
+}
+
+#Login .section_2 .signin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1pc;
+  width: 24pc;
+}
+
+#Login .section_2 .signin form {
+  border: solid 1px #61ce705f;
+  border-radius: 0.5pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.3pc;
+  padding: 1pc;
+  width: 100%;
+}
+
+#Login .section_2 .signin form .inputField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Login .section_2 .signin form .inputField .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+#Login .section_2 .signin form .inputField .label span {
+  color: var(--Text-Dark-col);
+  text-transform: capitalize;
+}
+
+#Login .section_2 .signin form .inputField .label .link {
+  color: var(--Green-col);
+}
+
+#Login .section_2 .signin form .inputField input {
+  border: none;
+  background: #f8f8f8;
+  width: 100%;
+}
+
+#Login .section_2 .signin form .inputField input:focus {
+  outline: none;
+}
+
+#Login .section_2 .signin form .inputField .Input {
+  background: #f8f8f8;
+  width: 100%;
+  padding: 0.7pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-radius: 0.5pc;
+}
+
+#Login .section_2 .signin form .inputField .Input .icon {
+  color: var(--Text-col);
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+#Login .section_2 .signin form button {
+  width: 100%;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+#Login .section_2 .signin .googleLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+#Login .section_2 .signin .googleLogin button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1pc;
+  padding: 1pc;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+#Login .section_2 .signin .googleLogin button:hover .icon {
+  color: #fff;
+}
+
+#Login .section_2 .signin .googleLogin button .icon {
+  font-size: 1.3rem;
+  color: var(--Text-Dark-col);
+}
+
+#Login .section_2 .signin .createAccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#Login .section_2 .signin .createAccount p {
+  color: var(--Text-col);
+  text-transform: capitalize;
+}
+
+#Login .section_2 .signin .createAccount .link {
+  color: var(--Green-col);
+}
+
+@media only screen and (max-width: 600px) {
+  #Login .section_1,
+  .section_2,
+  .section_3,
+  .section_4 {
+    padding-left: 3pc !important;
+    padding-right: 3pc !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #Login .section_1,
+  .section_2,
+  .section_3,
+  .section_4 {
+    padding-left: 2pc !important;
+    padding-right: 2pc !important;
+  }
+
+  #Login .section_1 {
+    padding: 1pc !important;
+  }
+
+  #Login .section_1 h1 {
+    font-size: 1.7rem;
+  }
+
+  #Login .section_1 .Navigate span {
+    font-size: 0.8rem;
+  }
+
+  #Login .section_1 .Navigate b {
+    font-size: 0.8rem;
+  }
+
+  #Login .section_2 h2 {
+    font-size: 1.1rem;
+  }
+
+  #Login .section_2 h1 {
+    font-size: 1.1rem;
+  }
+
+  #Login .section_2 .signin form {
+    gap: 1pc;
+    padding: 0.9pc;
+    width: 100%;
+  }
+
+  #Login .section_2 .signin form .inputField .label span {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 .signin form .inputField input::-webkit-input-placeholder {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 .signin form .inputField input::-moz-placeholder {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 .signin form .inputField input:-ms-input-placeholder {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 .signin form .inputField input::-ms-input-placeholder {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 .signin form .inputField input::placeholder {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 .signin {
+    width: auto;
+  }
+
+  #Login .section_2 .signin .createAccount p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 .signin .createAccount .link {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 .signin form .inputField .label .link {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Login .section_2 {
+    gap: 0.5pc !important;
+  }
+
+  #Login .section_2 .signin form button {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #Login .section_2 .signin .googleLogin {
+    /* width: auto; */
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #Login .section_1,
+  .section_2,
+  .section_3,
+  .section_4 {
+    padding-left: 1pc !important;
+    padding-right: 1pc !important;
+  }
+
+  #Login .section_2 .signin form .inputField input {
+    border: none;
+    font-size: 0.7rem;
+    background: #f8f8f8;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+}
+
+/* <============== Login section_2 Css ==================> */
+
+/* <============== Login Css ==================> */

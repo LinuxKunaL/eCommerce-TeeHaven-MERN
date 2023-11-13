@@ -1,0 +1,293 @@
+/* <============== Checkout Css ==================> */
+
+/* <============== Checkout section_1 Css ==================> */
+#Checkout .section_1 {
+  background: var(--White-col);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2pc;
+  gap: 1pc;
+  padding-left: 17pc;
+  padding-right: 17pc;
+}
+
+#Checkout .section_1 h1 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+  font-size: var(--font-size-xl);
+}
+
+#Checkout .section_1 .Navigate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5pc;
+}
+
+#Checkout .section_1 .Navigate span {
+  color: var(--Text-col);
+}
+
+#Checkout .section_1 .Navigate b {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Checkout .section_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2pc;
+  gap: 1pc;
+  padding-left: 17pc;
+  padding-right: 17pc;
+}
+
+#Checkout .section_2 .form {
+  /* border: solid 1px #61ce705f; */
+  border-radius: 0.5pc;
+  width: 40pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+  padding: 1pc;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#Checkout .section_2 .form .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Checkout .section_2 .form .top h1 {
+  font-weight: var(--font-weight-xl);
+  color: var(--Text-Dark-col);
+}
+
+#Checkout .section_2 .form .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#Checkout .section_2 .form .center .inputField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Checkout .section_2 .form .center .inputField .label span {
+  color: var(--Text-Dark-col);
+  text-transform: capitalize;
+}
+
+#Checkout .section_2 .form .center .inputField input {
+  border: none;
+  background: #f8f8f8;
+  width: 100%;
+  padding: 0.7pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-radius: 0.5pc;
+}
+
+#Checkout .section_2 .form .center .inputField input:focus {
+  outline: none;
+}
+
+#Checkout .section_2 .checkout {
+  /* border: solid 1px #61ce705f; */
+  border-radius: 0.5pc;
+  padding: 1pc;
+  width: 40pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+}
+
+#Checkout .section_2 .checkout h1 {
+  font-weight: var(--font-weight-xl);
+  color: var(--Text-Dark-col);
+}
+
+#Checkout .section_2 .checkout .subtotal {
+  background: var(--White-col);
+  border-radius: 1pc;
+  padding: 1pc;
+}
+
+#Checkout .section_2 .checkout .subtotal .order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+}
+
+#Checkout .section_2 .checkout .subtotal .order .slice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#Checkout .section_2 .checkout .subtotal .order .slice span {
+  color: var(--Text-col);
+}
+
+#Checkout .section_2 .checkout .subtotal .order .slice legend {
+  font-weight: var(--font-weight-xl);
+  color: var(--Text-Dark-col);
+}
+
+#Checkout .section_2 .checkout .subtotal .order .line {
+  background: -o-radial-gradient(circle, #0d0e1429 0%, rgba(0, 0, 0, 0) 100%);
+  background: radial-gradient(circle, #0d0e1429 0%, rgba(0, 0, 0, 0) 100%);
+  height: 1px;
+}
+
+#Checkout .section_2 .checkout .subtotal .order p {
+  color: var(--Text-Dark-col);
+}
+
+/* <============== Checkout section_1 Css ==================> */
+
+@media only screen and (max-width: 900px) {
+  #Checkout .section_2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  #Checkout .section_2 .form {
+    width: auto;
+  }
+
+  #Checkout .section_2 .checkout {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #Checkout .section_1 {
+    padding: 1pc !important;
+  }
+
+  #Checkout .section_1 h1 {
+    font-size: 1.7rem;
+  }
+
+  #Checkout .section_1 .Navigate span {
+    font-size: 0.8rem;
+  }
+
+  #Checkout .section_1 .Navigate b {
+    font-size: 0.8rem;
+  }
+
+  #Checkout .section_2 .checkout h1 {
+    font-size: 1.1rem;
+  }
+
+  #Checkout .section_2 .form .top h1 {
+    font-size: 1.1rem;
+  }
+
+  #Checkout .section_2 .form .top button {
+    font-size: 0.7rem;
+    width: 5pc;
+    height: 2.3pc;
+  }
+
+  #Checkout .section_2 .form .center .inputField span {
+    font-size: 0.8rem;
+  }
+
+  #Checkout .section_2 .form .center .inputField input {
+    font-size: 0.7rem;
+  }
+
+  #Checkout .section_2 .form .center button {
+    font-size: 0.7rem;
+    width: 5pc;
+    height: 2.3pc;
+  }
+
+  #Checkout .section_2 .checkout .subtotal .order .slice span {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Checkout .section_2 .checkout .subtotal .order .slice legend {
+    font-size: 0.8rem;
+  }
+
+  #Checkout .section_2 .checkout .subtotal .order p {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #Checkout .section_2 .checkout {
+    padding: 0.4pc;
+  }
+
+  #Checkout .section_2 .form {
+    padding: 0.4pc;
+  }
+}
+
+/* <============== Checkout Css ==================> */

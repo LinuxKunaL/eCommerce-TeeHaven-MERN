@@ -1,0 +1,193 @@
+#Dashboard .Container main .UserDetails {
+  padding: 1pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.5pc;
+}
+
+#Dashboard .Container main .UserDetails h2 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .UserDetails .center {
+  padding: 1pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1pc;
+}
+
+#Dashboard .Container main .UserDetails .center .mainInfo {
+  border-radius: 0.5pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+  padding: 1pc;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  background: #fff;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 20pc;
+}
+
+#Dashboard .Container main .UserDetails .center h3 {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .UserDetails .center .mainInfo img {
+  width: 7pc;
+  border-radius: 10pc;
+  border: solid var(--Green-col);
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-filter: drop-shadow(0px 0px 9px rgba(134, 229, 140, 0.391));
+  filter: drop-shadow(0px 0px 9px rgba(134, 229, 140, 0.391));
+}
+
+#Dashboard .Container main .UserDetails .center .mainInfo .textField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+  width: 100%;
+}
+
+#Dashboard .Container main .UserDetails .center .mainInfo span {
+  color: var(--Green-col);
+  font-weight: var(--font-weight-xxl);
+}
+
+#Dashboard .Container main .UserDetails .center .mainInfo b {
+  color: var(--Text-col);
+  font-weight: var(--font-weight-xl);
+  border-radius: 0.5pc;
+  background: var(--White-col);
+  padding: 0.5pc;
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo {
+  border-radius: 0.5pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1pc;
+  padding: 1pc;
+  background: #fff;
+  overflow-y: auto;
+  width: 60%;
+  height: 33pc;
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo .OrderIsEmpty {
+  font-weight: var(--font-weight-xl);
+  padding: 2pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: var(--Text-Dark-col);
+}
+
+#Dashboard
+  .Container
+  main
+  .UserDetails
+  .center
+  .ordersInfo
+  .OrderIsEmpty
+  .Icon {
+  color: var(--Green-col);
+  font-size: var(--font-size-l);
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li {
+  background: var(--White-col);
+  border-radius: 0.5pc;
+  padding: 0.5pc;
+  border: solid transparent 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  gap: 0.5pc;
+  cursor: pointer;
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li:hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  border: solid var(--Green-col) 1px;
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li img {
+  width: 5pc;
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5pc;
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li .info span {
+  color: var(--Text-Dark-col);
+  font-weight: var(--font-weight-xl);
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li .info b {
+  color: var(--Text-col);
+  font-weight: var(--font-weight-l);
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li .info legend {
+  font-weight: 500;
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li .info .done {
+  color: var(--Green-col);
+}
+
+#Dashboard .Container main .UserDetails .center .ordersInfo li .info .pending {
+  color: #f35959;
+}
