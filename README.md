@@ -9,6 +9,7 @@ Welcome to teeHaven, an eCommerce website developed using React.js, Node.js, Exp
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Demo](#demo)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [images](#images)
@@ -29,7 +30,10 @@ Welcome to teeHaven, an eCommerce website developed using React.js, Node.js, Exp
 Hey there, I'm Kunal Lokhande, the guy who put together teeHaven, this MERN-powered eCommerce thing. Spent a good three months of my life on it, you know? It's not just code; it's a labor of love, making sure every bit feels just right. teeHaven isn't just a tech project; it's my take on creating a smooth, feature-packed online shopping trip. Pumped to share it with everyone!
 
 And guess what? TeeHaven is open-source and totally free to use. I'm all about that community vibe, so if you're into tweaking, improving, or just curious, feel free to dive in. Let's make this thing even better together!
+## Demo
 
+ **teehaven.vercel.app**
+ 
 ## Features
 
 - all eCommerce features
