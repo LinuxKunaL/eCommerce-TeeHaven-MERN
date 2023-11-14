@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 import {
   AiOutlineEye,
   AiOutlineEyeInvisible,
@@ -56,6 +57,9 @@ function Signup() {
         Email: emailVerification.Email,
       });
       ToastGreen(response);
+      setTimeout(() => {
+        navigate("/login/signin");
+      }, 1500);
     } catch (error) {
       console.log(error);
     }
