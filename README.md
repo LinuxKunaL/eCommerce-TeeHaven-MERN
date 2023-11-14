@@ -32,7 +32,7 @@ Hey there, I'm Kunal Lokhande, the guy who put together teeHaven, this MERN-powe
 And guess what? TeeHaven is open-source and totally free to use. I'm all about that community vibe, so if you're into tweaking, improving, or just curious, feel free to dive in. Let's make this thing even better together!
 ## Demo
 
-[**teehaven demo**](teehaven.vercel.app)
+[**teehaven demo**](https://teehaven.vercel.app/)
 
  
 ## Features
