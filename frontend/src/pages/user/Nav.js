@@ -35,6 +35,8 @@ function Nav() {
         <FaAngleLeft className="icon" />
         Back
       </NavLink>
+<div> 
+Menu
       <CgMenuGridR
         onClick={() => {
           document
@@ -43,6 +45,7 @@ function Nav() {
         }}
         className="menu"
       />
+</div>
     </div>
   );
 }
